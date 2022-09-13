@@ -24,7 +24,7 @@ app.include_router(Like.router)
 
 @app.get('/')
 def root():
-    return {"message":"hello"}
+    return {"message":" world"}
 
 
 
